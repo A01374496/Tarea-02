@@ -1,7 +1,16 @@
 #encoding: UTF-8
 
-# Autor: tuNombreCompleto, tuMatricula
-# Descripcion: Texto que describe en pocas palabras el problema que estás resolviendo.
+# Autor: Andrea Montero Rivas, A01374496
+# Descripcion: problema cuenta restaurante
 
-# A partir de aquí escribe tu programa
+c = float(input("Total de comida:",))
+propina = c *.12
+iva= c*.16
+
+print(c)
+print(propina)
+print(iva)
+print(c+propina+iva)
+
+
 
